@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | Hgy</title>
+<title>《斯通纳》 [美]约翰·威廉斯 | Hgy</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,6 +13,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://hgy123.github.io/hgy//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -95,59 +101,50 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">《斯通纳》 [美]约翰·威廉斯</h2>
+            <div class="post-date">2019-07-03</div>
+            
+              <div class="feature-container" style="background-image: url('https://hgy123.github.io/hgy//post-images/lesslesssi-tong-na-greatergreater-mei-yue-han-wei-lian-si.png')">
+              </div>
+            
+            <div class="post-content">
+              <p>《斯通纳》讲述了生命中最重要的部分：爱，认同，怜悯，志业，傲骨，信任与死亡。
+约翰·威廉斯（John Edward Williams, 1922—1994），美国作家，诗人，学者。辍过学，当过电台播音，从过军。退役后入大学就读并获博士学位。于1945年-1985年间在母校丹佛大学任教，教授大学英语及创意写作。曾编辑出版学术文集《文艺复兴时期的英语诗歌》，也创作过两本诗集。
+一生只写了四部小说：《惟有黑夜》（1948）、《屠夫十字镇》（1960）、《斯通纳》（1965）、《奥古斯都》（1973，本书当年获得美国国家图书奖）。
+对约翰·威廉斯的写作，英国作家朱利安·巴恩斯评论：“当我称之为‘绝佳’，我的意思是它们（《屠夫十字镇》《斯通纳》）已经超越了各自类型范围内的评价标准。”</p>
+<!-- more -->
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
-              
+              <div class="tag-container">
                 
-                  <article class="post">
-                    <a href="https://hgy123.github.io/hgy//post/lesslesssi-tong-na-greatergreater-mei-yue-han-wei-lian-si">
-                      <h2 class="post-title">
-                        《斯通纳》 [美]约翰·威廉斯
-                      </h2>
-                    </a>
-                  </article>
+                  <a href="https://hgy123.github.io/hgy//tag/Ae3b58Tg4" class="tag">
+                    Book
+                  </a>
                 
-              
-                
-                  <article class="post">
-                    <a href="https://hgy123.github.io/hgy//post/about">
-                      <h2 class="post-title">
-                        网站介绍
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-              
+              </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2018</h2>
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://hgy123.github.io/hgy//post/about">
+                  <h3 class="post-title">
+                    网站介绍
+                  </h3>
+                </a>
+              </div>
+            
+
+            
               
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-              
-                
-                  <article class="post">
-                    <a href="https://hgy123.github.io/hgy//post/hello-gridea">
-                      <h2 class="post-title">
-                        Hello Gridea
-                      </h2>
-                    </a>
-                  </article>
-                
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -169,6 +166,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
