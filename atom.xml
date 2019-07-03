@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hgy123.github.io/hgy/</id>
     <title>Hgy</title>
-    <updated>2019-07-03T08:01:22.333Z</updated>
+    <updated>2019-07-03T08:12:17.991Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hgy123.github.io/hgy/"/>
     <link rel="self" href="https://hgy123.github.io/hgy//atom.xml"/>
@@ -16,8 +16,11 @@
         <link href="https://hgy123.github.io/hgy//post/about">
         </link>
         <updated>2019-01-25T11:09:48.000Z</updated>
-        <content type="html"><![CDATA[<p>hgy
-Study: Genetics
+        <summary type="html"><![CDATA[<p>About Hgy</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>About Hgy</p>
+<!-- more -->
+<p>Study: Genetics
 Status:Phd,CAU
 Email:hgyyxg@163.com</p>
 ]]></content>
