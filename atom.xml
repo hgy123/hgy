@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>C:/Users/hgy/Documents/Gridea/output</id>
+    <id>https://hgy123.github.io/hgy/</id>
     <title>Gridea</title>
-    <updated>2019-07-03T07:30:32.392Z</updated>
+    <updated>2019-07-03T07:42:42.539Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="C:/Users/hgy/Documents/Gridea/output"/>
-    <link rel="self" href="C:/Users/hgy/Documents/Gridea/output/atom.xml"/>
+    <link rel="alternate" href="https://hgy123.github.io/hgy/"/>
+    <link rel="self" href="https://hgy123.github.io/hgy//atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>C:/Users/hgy/Documents/Gridea/output/images/avatar.png</logo>
-    <icon>C:/Users/hgy/Documents/Gridea/output/favicon.ico</icon>
+    <logo>https://hgy123.github.io/hgy//images/avatar.png</logo>
+    <icon>https://hgy123.github.io/hgy//favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>C:/Users/hgy/Documents/Gridea/output/post/hello-gridea/index.html</id>
-        <link href="C:/Users/hgy/Documents/Gridea/output/post/hello-gridea/index.html">
+        <id>https://hgy123.github.io/hgy//post/hello-gridea</id>
+        <link href="https://hgy123.github.io/hgy//post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
